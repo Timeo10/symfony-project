@@ -1,0 +1,28 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello ContactController!{% endblock %}
+
+{% block body %}
+<main>
+<div class="example-wrapper">
+    <h1>Contactez-nous ✅</h1>
+    <div class="mail">
+    <form action="{{ path ('app_contact')}}" method="post">
+  <div class="mb-3">
+						<label for="email" class="form-label">Votre email</label>
+						<input class="form-control" type="email" name="email" id="email">
+					</div>
+  <div >
+    <label for="subject" class="form-label">Sujet</label>
+    <input type="text" class="form-control" name="subject" id="subject">
+  </div>
+  <div class="mb-3">
+	<label for="message" class="form-label">Votre email</label>
+	<textarea class="form-control" name="message" id="message" cols="30" rows="10"></textarea>
+	</div>
+  <button type="submit" class="btn btn-success">Submit</button>
+</form>
+</div>
+</div>
+</main>
+{% endblock %}

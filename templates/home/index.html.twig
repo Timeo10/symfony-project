@@ -1,0 +1,59 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Accueil{% endblock %}
+
+{% block body %}
+
+<div class="example-wrapper">
+    <h1 class="text-center">Bienvenue </h1>
+    
+    <div class="content-pres">
+    <div class="pres">
+    <h2> Qui somme nous ? </h2>
+    <p>
+    Notre entreprise, SportShop, est spécialisée dans la vente de produits de sport 
+    de haute qualité pour les athlètes de tous niveaux. Nous avons une grande sélection 
+    de marques reconnues dans le monde entier pour répondre à tous vos besoins en matière 
+    de sport, que vous soyez un débutant ou un athlète professionnel.
+    </p>
+    <p>
+    Notre site web est conçu pour faciliter vos achats en ligne avec des fonctionnalités telles 
+    que des filtres de recherche avancés, des avis de clients et des images détaillées des produits. 
+    Nous offrons également des options de livraison rapide et sécurisée pour que vous receviez vos articles
+    dans les meilleurs délais.
+    </p>
+    <p>
+    En tant qu'entreprise engagée dans le sport, nous soutenons également de nombreuses organisations et 
+    équipes locales pour promouvoir l'activité physique et le développement des talents.
+    </p>
+    Nous sommes fiers de notre service à la clientèle exceptionnel et nous nous efforçons de répondre à toutes 
+    les demandes dans les plus brefs délais. N'hésitez pas à nous contacter si vous avez des questions ou
+    des besoins spécifiques, nous serions ravis de vous aider.
+    </p>
+    </div>
+    </div>
+  </div>
+  </div>
+
+  <div class="content">
+  {% for i in 1..6 %}
+      <div class="card-info">
+  <img src="/img/real-madrid.png" class="img" alt="real">
+  <div class="content-card">
+  <p>Maillot real madrid 2022/2023</p>
+  <div class="button-price">
+    <a href="#" class=" price btn btn-success">70$</a>
+    </div>
+</div>
+</div>
+  {% endfor %}
+    </div>
+    <div class="button">
+    <a class="btn btn-success" href="{{ '/produit' }}" role="button">voir plus de produit</a>
+    </div>
+    
+    
+
+
+{% endblock %}
+
