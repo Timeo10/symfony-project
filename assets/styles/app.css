@@ -44,8 +44,12 @@
     grid-gap: 20px;
     margin-left: 10%;
     margin-right: 10%;
+
   }
-   
+  .content-wrapper{
+    margin-bottom: 5%;
+
+  }
 .mail{
   width: 100%;
   display: flex;
@@ -54,6 +58,7 @@
 form{
   width: 50%;
 }
+
 .button{
   display: flex;
   justify-content: center;
