@@ -59,13 +59,12 @@
 </nav>
 
         {% block body %}{% endblock %}
-        <footer>
+        {# <footer>
         <div class="footer-sport">
         <h4>SportShop</h4>
         <p>Notre entreprise, SportShop, est spécialisée dans la vente de produits de sport 
     de haute qualité pour les athlètes de tous niveaux. Nous avons une grande sélection 
-    de marques reconnues dans le monde entier pour répondre à tous vos besoins en matière 
-    de sport, que vous soyez un débutant ou un athlète professionnel.</p>
+    de marques reconnues dans le</p>
     </div>
     <div class="pages">
         <h4>Page</h4>
@@ -103,7 +102,61 @@
       </li>
     </ul>
     </div>
-    </footer>
+    </footer> #}
+    
+    <footer class="website-footer">
+  <section>
+    <div class="footer-container">
+      <div class="footer-logo-container">
+        <h4>SportShop</h4>
+       
+         <p>Notre entreprise, SportShop, est spécialisée dans la vente de produits de sport 
+    de haute qualité pour les athlètes de tous niveaux. Nous avons une grande sélection 
+    de marques reconnues dans le</p>
+       
+      </div>
+      <ul class="navbar-nav ul_footer">
+        <h4>Page</h4>
+
+        <li class="nav-item">
+        <a class="nav-link" href="{{ '/' }}">Accueil</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{{ '/produit' }}">Produit</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{{ '/propos' }}">A propos</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{{ '/contact' }}">Contact</a>
+      </li>
+      </ul>
+      <ul class="ul-container">
+
+
+          <ul class="contact navbar-nav">
+        <h4>Contact</h4>
+
+      <li class="nav-item active">
+       06 60 60 60 60
+      </li>
+      <li class="nav-item">
+       80 rue des Jacobins , Amiens 80000
+        
+      </li>
+      <li class="nav-item">
+       email@email.com
+        
+      </li>
+      
+    </ul>
+        
+      </ul>
+    </div>
+  </section>
+  <section>
+  </section>
+</footer>
    
     </body>
 </html>
