@@ -1,8 +1,12 @@
 {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   "build/app.css": "/build/app.64e77df0.css",
 =======
   "build/app.css": "/build/app.69121ec7.css",
+>>>>>>> Stashed changes
+=======
+  "build/app.css": "/build/app.4db7f122.css",
 >>>>>>> Stashed changes
   "build/app.js": "/build/app.b581762d.js",
   "build/runtime.js": "/build/runtime.61b1725c.js",

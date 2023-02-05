@@ -92,6 +92,61 @@ footer{
 .footer-sport{
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
+}
+
+
+
+.copyright-container {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.ul-container {
+  display: flex;
+  justify-content: center;
+}
+
+ .navbar-nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;  
+  }
+
+footer{
+  margin-top: auto;
+}
+.about-title, .contact-title, .product-title{
+  margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+
+@media screen and (max-width: 920px)
+{
+  .footer-container {
+      display: flex;
+      flex-direction: column-reverse;
+  }
+
+  .ul_footer {
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+  }
+
+  .ul-container {
+      margin: 1.5rem;
+  }
+
+}
+@media screen and (max-width: 920px)
+{
+  .footer-logo-container {
+      padding-left: 0 !important;
+  }
+
 }
 
 @media only screen and (max-width: 767px) {
